@@ -11,3 +11,21 @@
 - command: deluser --remove-home [username]
   desc: Delete a user from the system and remove their home directory
   tags: [user, linux, macos, sudo]
+- command: grep -rnw [search_pattern] -e [text]
+  desc: Search for a text string in a directory
+  tags: [search, linux, macos] 
+- command: ls -l
+  desc: List files in a directory
+  tags: [ls, linux, macos]
+- command: ls -l | grep [search_pattern]
+  desc: List files in a directory and filter by search pattern
+  tags: [ls, linux, macos]
+- command: cd [directory]
+  desc: Change directory
+  tags: [cd, linux, macos]
+- command: cd ..
+  desc: Change directory to parent directory
+  tags: [cd, linux, macos]
+- command: cd ~
+  desc: Change directory to home directory
+  tags: [cd, linux, macos]
