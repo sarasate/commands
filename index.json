@@ -52,7 +52,7 @@
     "command": "ls -l",
     "desc": "List files in a directory",
     "tags": [
-      "ls",
+      "dir",
       "linux",
       "macos"
     ]
@@ -61,7 +61,7 @@
     "command": "ls -l | grep [search_pattern]",
     "desc": "List files in a directory and filter by search pattern",
     "tags": [
-      "ls",
+      "dir",
       "linux",
       "macos"
     ]
@@ -70,7 +70,7 @@
     "command": "cd [directory]",
     "desc": "Change directory",
     "tags": [
-      "cd",
+      "dir",
       "linux",
       "macos"
     ]
@@ -79,7 +79,7 @@
     "command": "cd ..",
     "desc": "Change directory to parent directory",
     "tags": [
-      "cd",
+      "dir",
       "linux",
       "macos"
     ]
@@ -88,7 +88,61 @@
     "command": "cd ~",
     "desc": "Change directory to home directory",
     "tags": [
-      "cd",
+      "dir",
+      "linux",
+      "macos"
+    ]
+  },
+  {
+    "command": "rm [filename]",
+    "desc": "Remove a file",
+    "tags": [
+      "dir",
+      "linux",
+      "macos"
+    ]
+  },
+  {
+    "command": "rm -rf [directory]",
+    "desc": "Force remove a directory and all of its contents",
+    "tags": [
+      "dir",
+      "linux",
+      "macos"
+    ]
+  },
+  {
+    "command": "touch [filename]",
+    "desc": "Create a new empty file",
+    "tags": [
+      "dir",
+      "linux",
+      "macos"
+    ]
+  },
+  {
+    "command": "mkdir [directory]",
+    "desc": "Create a new directory",
+    "tags": [
+      "dir",
+      "linux",
+      "macos"
+    ]
+  },
+  {
+    "command": "wc -l [filename]",
+    "desc": "Count the number of lines in a file",
+    "tags": [
+      "file",
+      "linux",
+      "macos"
+    ]
+  },
+  {
+    "command": "wc -w [filename]",
+    "desc": "Count the number of words in a file",
+    "tags": [
+      "file",
       "linux",
       "macos"
     ]

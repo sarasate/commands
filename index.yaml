@@ -41,3 +41,9 @@
 - command: mkdir [directory]
   desc: Create a new directory
   tags: [dir, linux, macos]
+- command: wc -l [filename]
+  desc: Count the number of lines in a file
+  tags: [file, linux, macos]
+- command: wc -w [filename] 
+  desc: Count the number of words in a file
+  tags: [file, linux, macos]
