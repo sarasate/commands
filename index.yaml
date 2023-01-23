@@ -50,3 +50,12 @@
 - command: rsync -av --progress sourcefolder destinationfolder --exclude thefoldertoexclude
   desc: Copy a folder to another location, excluding a specific folder
   tags: [dir, linux, macos]
+- command: locate [query
+  desc: Find a file or directory by name
+  tags: [dir, linux, macos]
+- command: which [command]
+  desc: Find the path of an executable
+  tags: [dir, linux, macos]
+- command: whereis [command]
+  desc: Find the path of an executable
+  tags: [dir, linux, macos]
