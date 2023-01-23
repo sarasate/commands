@@ -146,5 +146,14 @@
       "linux",
       "macos"
     ]
+  },
+  {
+    "command": "rsync -av --progress sourcefolder destinationfolder --exclude thefoldertoexclude",
+    "desc": "Copy a folder to another location, excluding a specific folder",
+    "tags": [
+      "dir",
+      "linux",
+      "macos"
+    ]
   }
 ]
