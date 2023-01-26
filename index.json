@@ -182,5 +182,15 @@
       "linux",
       "macos"
     ]
+  },
+  {
+    "command": "ssh -L [port]:localhost:[port] [user]@[host]",
+    "desc": "Create a tunnel to a remote host",
+    "tags": [
+      "network",
+      "ssh",
+      "linux",
+      "macos"
+    ]
   }
 ]
