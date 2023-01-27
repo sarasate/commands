@@ -20,6 +20,16 @@
     ]
   },
   {
+    "command": "adduser [username] --disabled-password",
+    "desc": "Add a new user to the system without a password",
+    "tags": [
+      "user",
+      "linux",
+      "macos",
+      "sudo"
+    ]
+  },
+  {
     "command": "deluser [username]",
     "desc": "Delete a user from the system",
     "tags": [

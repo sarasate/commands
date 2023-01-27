@@ -5,6 +5,9 @@
 - command: adduser [username] sudo
   desc: Add a new user to the system and grant sudo privileges
   tags: [user, linux, macos, sudo]
+- command: adduser [username] --disabled-password
+  desc: Add a new user to the system without a password
+  tags: [user, linux, macos, sudo]
 - command: deluser [username]
   desc: Delete a user from the system
   tags: [user, linux, macos, sudo]
