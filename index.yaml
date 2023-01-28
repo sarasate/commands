@@ -65,3 +65,12 @@
 - command: ssh -L [port]:localhost:[port] [user]@[host]
   desc: Create a tunnel to a remote host
   tags: [network, ssh, linux, macos]
+- command: tar -czvf [file]
+  desc: Create a compressed tar archive
+  tags: [archive, compress, linux, macos]
+- command: tar -xzvf [file]
+  desc: Extract a compressed tar archive
+  tags: [archive, compress, linux, macos]
+- command: tar tvf [file]
+  desc: List the contents of a tar archive
+  tags: [archive, compress, linux, macos]
