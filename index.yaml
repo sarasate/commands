@@ -74,3 +74,9 @@
 - command: tar tvf [file]
   desc: List the contents of a tar archive
   tags: [archive, compress, linux, macos]
+- command: cat [file]
+  desc: Display the contents of a file
+  tags: [file, linux, macos]
+- command: cat [file] | grep [search_pattern]
+  desc: Display the contents of a file and filter by search pattern
+  tags: [file, linux, macos]

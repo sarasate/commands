@@ -232,5 +232,23 @@
       "linux",
       "macos"
     ]
+  },
+  {
+    "command": "cat [file]",
+    "desc": "Display the contents of a file",
+    "tags": [
+      "file",
+      "linux",
+      "macos"
+    ]
+  },
+  {
+    "command": "cat [file] | grep [search_pattern]",
+    "desc": "Display the contents of a file and filter by search pattern",
+    "tags": [
+      "file",
+      "linux",
+      "macos"
+    ]
   }
 ]
