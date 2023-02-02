@@ -250,5 +250,32 @@
       "linux",
       "macos"
     ]
+  },
+  {
+    "command": "uname -a",
+    "desc": "Display system information",
+    "tags": [
+      "system",
+      "linux",
+      "macos"
+    ]
+  },
+  {
+    "command": "uptime",
+    "desc": "Display system uptime",
+    "tags": [
+      "system",
+      "linux",
+      "macos"
+    ]
+  },
+  {
+    "command": "finger",
+    "desc": "Display information about users",
+    "tags": [
+      "system",
+      "linux",
+      "macos"
+    ]
   }
 ]
