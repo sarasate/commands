@@ -277,5 +277,15 @@
       "linux",
       "macos"
     ]
+  },
+  {
+    "command": "hostnamectl set-hostname [hostname]",
+    "desc": "Set the hostname",
+    "tags": [
+      "host",
+      "hostname",
+      "system",
+      "linux"
+    ]
   }
 ]

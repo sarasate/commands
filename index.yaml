@@ -89,3 +89,6 @@
 - command: finger
   desc: Display information about users
   tags: [system, linux, macos]
+- command: hostnamectl set-hostname [hostname]
+  desc: Set the hostname
+  tags: [host, hostname, system, linux ]
