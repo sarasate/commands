@@ -92,3 +92,6 @@
 - command: hostnamectl set-hostname [hostname]
   desc: Set the hostname
   tags: [host, hostname, system, linux ]
+- command: lsof -i -P -n | grep LISTEN
+  desc: List all listening ports
+  tags: [network, sudo, linux, macos]
