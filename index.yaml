@@ -95,3 +95,6 @@
 - command: lsof -i -P -n | grep LISTEN
   desc: List all listening ports
   tags: [network, sudo, linux, macos]
+- command: nohup [command] > [fileName] 2>&1 &!
+  desc: Keep a command running in the background after you log out
+  tags: [command, background, linux, macos]
