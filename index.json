@@ -307,5 +307,14 @@
       "linux",
       "macos"
     ]
+  },
+  {
+    "command": "chmod 777 [file]",
+    "desc": "Change file permissions, give read write and execute permissions to all users",
+    "tags": [
+      "file",
+      "linux",
+      "macos"
+    ]
   }
 ]
