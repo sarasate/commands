@@ -101,3 +101,6 @@
 - command: chmod 777 [file]
   desc: Change file permissions, give read write and execute permissions to all users
   tags: [file, linux, macos]
+- command: chmod 755 [file]
+  desc: Change file permissions, give read write and execute permissions to the owner, read and execute permissions to the group and read and execute permissions to all other users
+  tags: [file, linux, macos]
